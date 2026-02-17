@@ -1,50 +1,43 @@
-# React + TypeScript + Vite
+🌐 AI Translator App
+A high-performance language translation tool powered by AI for fast and accurate results.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The AI Translator App is a modern web application designed to provide seamless text translation across multiple languages. This project showcases my proficiency in TypeScript and React, focusing on building clean interfaces that handle real-time data from external RESTful APIs.
 
-Currently, two official plugins are available:
+🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Real-time AI Translation: Built with automatic language detection and AI-powered translations.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+TypeScript Integration: Developed using TypeScript to ensure type safety and minimize runtime errors.
 
-- Configure the top-level `parserOptions` property like this:
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Responsive UI: A pixel-perfect clone of the Google Translate interface, fully optimized for mobile and desktop views using MUI or Tailwind CSS.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Optimized Performance: Refactored for maintainability and speed, ensuring low-latency interactions.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+🛠️ Tech Stack
+
+Frontend: React.js, TypeScript, MUI/Tailwind CSS.
+
+
+Backend: Node.js, Express.js.
+
+
+APIs: Integration with AI translation services (DeepL/Google).
+
+
+Tools: Git, GitHub, Vercel.
+
+⚙️ Installation & Setup
+Clone the repository:
+
+Install dependencies:
+
+Configure API Keys:
+Create a .env file and add your translation service API credentials.
+
+Run the application locally:
+
+👨‍💻 About the Developer
+I am Tomas Ortega Palencia, a Toronto-based Software Developer. I specialize in refactoring complex codebases—reducing complexity by up to 80% and building user-centric applications that deliver real impact.
